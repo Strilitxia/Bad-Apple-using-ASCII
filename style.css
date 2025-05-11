@@ -1,0 +1,18 @@
+/* Full‐screen black background */
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#screen {
+  line-height: 1.0;
+  white-space: pre;
+  font-size: 6px; /* Tweak for legibility */
+  width: fit-content;
+}
